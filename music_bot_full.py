@@ -9,9 +9,9 @@ import os
 # CONFIG
 # --------------------------------------
 PREFIXES = ["-", "!"]
-TOKEN = "MTQ0NDY0NjczNzk4OTA3NDk1NA.G3svtp.ZDuMIwQ3EmwuuWWrk_8PK6GbRzjf5dnsR2vs9s"  # sửa token
-WELCOME_CHANNEL_ID = 1129302359953125429    # sửa ID channel
-LEAVE_CHANNEL_ID = 1129302359953125429      # sửa ID channel
+TOKEN =   # sửa token
+WELCOME_CHANNEL_ID =     # sửa ID channel
+LEAVE_CHANNEL_ID =  # sửa ID channel
 GENIUS_API = "YOUR_GENIUS_API_KEY"
 
 genius = lyricsgenius.Genius(GENIUS_API)
@@ -297,3 +297,4 @@ async def clear(ctx, amount: int):
 # START BOT
 # --------------------------------------
 bot.run(TOKEN)
+
